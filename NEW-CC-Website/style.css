@@ -1,0 +1,87 @@
+body {
+    background: #FBC858;
+    font-family: Papyrus, Arial, Helvetica, sans-serif;
+  }
+
+.header h1{
+    background-color: #565819;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+
+.navigation{
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: #FF8210;
+    height: 50px; 
+}
+
+.navigation a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    text-align: center;
+    padding: 14px 60px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navigation a:hover {
+    background-color: #e67000;
+}
+
+.PastCC p{
+    font-size: 18px;
+    text-align: center;
+}
+
+.flex-box1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start; 
+    margin: 20px;
+}
+
+.sq {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    background-color: #565819;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    transition: background-color 0.3s ease; 
+    text-decoration: none;
+}
+
+.sq:hover {
+    background-color: #797c29;
+}
+
+.description {
+    width: 300px;
+    height: 250px;
+    background-color: #A8A832;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: left;
+    font-size: 16px;
+}
